@@ -1,0 +1,772 @@
+body {
+    height: 2000px;
+    font-family: 'El Messiri', sans-serif;
+    overflow: hidden; /*لشاشه التحميل فقط وبتتغير بعد التحميل*/
+}
+/* start header */
+.header {
+    background: url('../images/Agz5na000.png');
+    background-size: cover;
+    min-height: calc(100vh - 0px)
+}
+.header .navbar {direction: rtl}
+.header .navbar .logo{padding-bottom: 15px}
+.header .navbar a {color: #00A2B9;}
+.header .navbar .navbar-brand {
+    font-size: 40px;
+    margin-right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+    padding-left: 30px;
+    padding-right: 40px
+}
+.header .navbar .navbar-collapse {padding-right: 20px}
+.header .navbar .navbar-nav {
+    margin-right: 35px;
+    padding-right: 0;
+    margin-left: 40px;
+    font-family: 'El Messiri', sans-serif;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.header .navbar .navbar-nav .nav-link:hover {color: #fff}
+.header .navbar .icon {
+    font-size: 30px;
+    padding-right: 25px;
+    padding-bottom: 25px
+}
+.header .navbar .icon .fa {padding-right: 10px;padding-left: 5px}
+.header .navbar .icon .fa:hover {color: #fff}
+.header .navbar .navbar-nav li {
+    margin-left: 22px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.header .carousel-caption {bottom: 6rem;}
+.header .carousel-caption h1 {
+    font-size: 56px;
+    line-height: 1.5;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+    font-family: 'El Messiri', sans-serif;
+    color: #00A2B9
+}
+.header .carousel-caption .input-group-prepend {
+    background: #fff;
+    width: 800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto
+}
+.header .carousel-caption .input-group-text {background-color: #00A2B9}
+/* end header */
+/* start our services */
+.container {border-top: 4px solid #70001d}
+.our-services {margin-bottom: 50px}
+.our-services h1{
+    font-size: 3rem;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    font-weight: 700;
+    font-family: 'El Messiri', sans-serif;
+}
+.our-services span{
+    color: #00A2B9;
+    border-bottom: 4px solid
+}
+.our-services .row {direction: rtl}
+.our-services .row .lead {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 2.4;
+    font-family: 'El Messiri', sans-serif;
+}
+.our-services .row .lead .fa {color: #00A2B9;font-size: 2.8rem}
+/* end our services */
+/* start our vedio */
+.our-vedio {
+    background: url("../images/back1.png");
+    height: 500px;
+    margin-top: 50px
+}
+.our-vedio .vedio {padding-top: 45px;border-top: 4px solid #70001d}
+/* end our vedio  */
+/* start footer */
+.footer .row {
+    direction: rtl;
+    padding-top: 90px;
+    margin-top: 10px;
+    border-top: 4px solid #70001d;
+    font-family: 'El Messiri', sans-serif;
+    padding-bottom: 20px
+}
+.footer .row .locate h3{padding-bottom: 30px}
+.footer .locate .mans {padding-top: 20px;font-size: 25px}
+.footer .locate .mans .fa{
+    float: right;
+    color: #00A2B9;
+    padding-top: 7px;
+    padding-left: 10px
+}
+.footer .row .locate h3 span {
+    border-bottom: 2px solid #00A2B9;
+    padding-bottom: 15px
+}
+.footer .row .first .fa,
+.footer .row .second .fa {
+    float: right;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #00A2B9
+}
+.footer .row .first p,
+.footer .row .second p  {font-size: 20px}
+.footer .row .third {margin-bottom: 30px;margin-top: 15px}
+.footer .row .third .btn {color: #fff;background-color: #00A2B9}
+.footer .col .forth .btn {
+    width: 43px;
+    height: 43px;
+    background: none;
+    border: 1px solid #2884de;
+    border-radius: 50%;
+}
+.footer .col .forth .fa {
+    font-size: 22px;
+    width: 29px;
+    height: 27px;
+    padding-top: 3px;
+    padding-left: 10px;
+    color: #2884de
+}
+.footer .copy {
+    width: 900px;
+    height: 90px;
+    border-top: 3px solid #00A2B9;
+    font-size: 25px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 30px
+}
+/* end footer */
+.modal-header {
+    direction: rtl;
+    background: #00ceef;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.modal-header a {color: #fff;margin: auto;font-size: 20px;}
+.modal-header a:active {color: #70001d}
+.modal-body .form-login .input-group {
+    width: 350px;
+    height: 45px;
+    margin-bottom: 20px;
+    margin-left: 35px
+}
+.research .input-group .input-group-prepend {
+    background: #fff;
+    width: 450px;
+    height: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+.modal-body .form-login .input-group .input-group-prepend span {
+    background: #fff;
+    color: #00ceef;
+    width: 70px
+}
+.modal-body .form-login .input-group .input-group-prepend .fa {font-size: 25px;padding-left: 15px}
+.modal-body  .form-login .btn {background: #00ceef;color: #fff;width: 100px}
+.modal-body .form-register .input-group {
+    width: 350px;
+    height: 45px;
+    margin-bottom: 20px;
+    margin-left: 35px
+}
+.modal-body .form-register .input-group .input-group-prepend span {
+    background: #fff;
+    color: #00ceef;
+    width: 70px
+}
+.modal-body .form-register .input-group .input-group-prepend .fa {font-size: 25px;padding-left: 15px}
+.modal-body  .form-register .btn {background: #00ceef;color: #fff;width: 100px}
+.modal-header p {color: #fff;font-size: 32px;margin: auto}
+
+/* start scroll up */
+.top {
+    width: 50px;
+    height: 50px;
+    background: #00A2B9;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+}
+.top:hover {
+    background: #fff;
+    color: #00A2B9;
+    border: 2px solid #00A2B9
+}
+
+/* end scroll up */
+ /* start media query */
+@media (min-width: 0px) and (max-width: 575px) {
+    .header {
+        min-height: calc(90vh - 0px)
+    }
+    .header .navbar .logo {
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 20px
+    }
+    .header .navbar .navbar-toggler {
+        padding-right: 0;
+        padding-left: 0
+    }
+    .header .navbar .navbar-nav {
+        margin: auto;
+        border-bottom: none;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .header .navbar .navbar-nav li {
+        font-size: 15px;
+        margin-left: -8px
+    }
+    .header .navbar .icon {
+        width: 70px;
+        font-size: 25px
+    }
+    .header .navbar .icon .fa {margin-left: 35px}
+    .header .carousel-caption {bottom: 8rem}
+    .header .carousel-caption h1 {font-size: 22px; font-weight: bold; margin-bottom: 1.5rem}
+    .header .carousel-caption .input-group {
+        margin-left: 10px;
+    }
+    .header .carousel-caption .form-control {
+       width: 200px
+    }
+    .our-services h1 {
+        font-size: 1.6rem;
+        padding-top: 45px;
+        padding-bottom: 30px
+    }
+    .our-services .row .lead {
+        font-size: 18px;
+        line-height: 2;
+        font-weight: 600
+    }
+    .our-services .row .lead .fa {font-size: 25px}
+    .our-services .row .logo img {width: 330px}
+    .our-vedio .vedio iframe {width: 330px}
+    .footer .row {text-align: center !important; padding-top: 45px}
+    .footer .row img {margin-bottom: 30px;padding-bottom: 20px}
+    .footer .row .locate {margin-left: 40px;margin-bottom: 30px}
+    .footer .row .locate h3 {font-weight: bold; font-size: 25px}
+    .footer .row .locate h3 span {padding-bottom: 10px}
+    .footer .row .locate .mans {padding-top: 15px;font-size: 20px}
+    .footer .row .locate .mans .fa {margin-right: 40px;padding-right: 40px}
+    .footer .row .locate .mans p {width: 250px; font-weight: bold}
+    .footer .row .first {padding-top: 15px;padding-bottom: 15px}
+    .footer .row .first p {
+        width: 260px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .footer .row .first .fa {margin-right: 40px;padding-right: 40px}
+    .footer .row .second {padding-top: 15px;padding-bottom: 15px}
+    .footer .row .second .fa {margin-right: 40px;padding-right: 40px}
+    .footer .row .second p {
+        width: 310px;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    .footer .row .third {
+        width: 300px;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+    .footer .row .third form {padding-right: 25px}
+    .footer .row .forth {margin-bottom: 20px}
+    .footer .row .forth .btn {
+        width: 43px;
+        height: 43px;
+        background: none;
+        border: 1px solid #2884de;
+        border-radius: 50%;
+        margin-right: 5px
+    }
+    .footer .row .forth .fa {
+        font-size: 22px;
+        width: 29px;
+        height: 27px;
+        padding-top: 3px;
+        padding-left: 10px;
+        color: #2884de
+    }
+    .footer  .copy {
+        width: 380px;
+        margin-left: -30px;
+        padding-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .modal-body .form-login .input-group,.modal-body .form-register .input-group {
+        width: 230px;
+        margin-left: 25px
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){  /*small*/ 
+    .header {
+        min-height: calc(90vh - 0px)
+    }
+    .header .navbar .logo {
+        margin-right: 10px !important;
+        padding-right: 10px !important;
+        padding-top: 15px
+    }
+    .header .navbar .navbar-nav {
+        margin: auto;
+        border-bottom: none;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .header .navbar .icon .fa {margin-left: 35px}
+    .header .carousel-caption {bottom: 15rem}
+    .header .carousel-caption h1 {font-size: 35px; font-weight: bold}
+    .our-services h1 {
+        font-size: 2.3rem;
+        padding-top: 45px;
+        padding-bottom: 30px
+    }
+    .our-services .row .lead {
+        font-size: 25px;
+        line-height: 2;
+        font-weight: 600
+    }
+    .our-services .row .lead .fa {font-size: 30px}
+    .our-services .row .logo img {width: auto}
+    .our-vedio .vedio iframe {width: 510px}
+    .footer .row {padding-top: 50px}
+    .footer .row {text-align: center !important}
+    .footer .row img {margin-bottom: 30px;padding-bottom: 20px}
+    .footer .row .locate {margin-left: 40px;margin-bottom: 30px}
+    .footer .row .locate h3 {font-weight: bold; font-size: 30px}
+    .footer .row .locate h3 span {padding-bottom: 10px}
+    .footer .row .locate .mans {padding-top: 15px;font-size: 25px}
+    .footer .row .locate .mans .fa {margin-right: 80px;padding-right: 80px}
+    .footer .row .locate .mans p {width: 360px; font-weight: bold}
+    .footer .row .first {padding-top: 15px;padding-bottom: 15px}
+    .footer .row .first p {
+        width: 360px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .footer .row .first .fa {margin-right: 80px;padding-right: 75px}
+    .footer .row .second {padding-top: 15px;padding-bottom: 15px}
+    .footer .row .second .fa {margin-right: 80px;padding-right: 75px}
+    .footer .row .second p {
+        width: 405px;
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    .footer .row .third {
+        width: 300px;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+    .footer .row .third form {padding-right: 40px}
+    .footer .row .forth {margin-bottom: 20px}
+    .footer .row .forth .btn {
+        width: 43px;
+        height: 43px;
+        background: none;
+        border: 1px solid #2884de;
+        border-radius: 50%;
+        margin-right: 5px
+    }
+    .footer .row .forth .fa {
+        font-size: 22px;
+        width: 29px;
+        height: 27px;
+        padding-top: 3px;
+        padding-left: 10px;
+        color: #2884de
+    }
+    .footer  .copy {
+        width: 540px;
+        margin-left: -14px;
+        padding-top: 20px;
+        font-size: 25px;
+        font-weight: bold
+    }
+}
+ @media (min-width: 768px) and (max-width: 991px) { /*medium screen*/
+    .header {
+        min-height: calc(90vh - 0px)
+    }
+    .header .navbar .logo {
+        margin-right: 10px !important;
+        padding-right: 10px !important;
+        padding-top: 15px
+    }
+    .header .navbar .navbar-nav {
+        margin: auto;
+        border-bottom: none;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .header .navbar .icon .fa {margin-left: 35px}
+    .header .carousel-caption {bottom: 25rem}
+    .header .carousel-caption h1 {font-size: 40px}
+    .our-services h1 {
+        font-size: 35px;
+        padding-top: 45px;
+        padding-bottom: 30px
+    }
+    .our-services .row .lead {
+        font-size: 25px;
+        line-height: 1.6;
+        font-weight: 600
+    }
+    .our-services .row .lead .fa {font-size: 35px}
+    .our-services .row .logo img {width: 100%; padding-top: 50px;}
+    .our-vedio .vedio iframe {width: 690px}
+    .footer .row {padding-top: 50px;padding-bottom: 50px}
+    .footer .row img {
+        margin-bottom: 30px;
+        width: 235px;
+        height: 130px
+    }
+    .footer .row .locate {margin-bottom: 50px;margin-top: 25px}
+    .footer .row .locate h3 {
+        padding-bottom: 10px;
+        font-size: 28px;
+        font-style: italic;
+        font-weight: bold
+    }
+    .footer .row .locate .mans p {
+        font-size: 23px;
+        font-weight: bold;
+        font-style: italic;
+        margin-left: 25px;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+    .footer .row .locate .mans .fa{padding-right: 50px;margin-right: 50px}
+    .footer .row .first p {
+        font-size: 23px;
+        font-weight: bold;
+        font-style: italic;
+        margin-left: 35px;
+        padding-left: 35px;
+        padding-top: 5px;
+    }
+    .footer .row .first .fa {padding-right: 30px;margin-right: 25px;}
+    .footer .row .second p {
+        font-size: 23px;
+        font-weight: bold;
+        font-style: italic;
+        margin-left: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+    .footer .row .second .fa {padding-right: 30px;margin-right: 25px}
+    .footer .row .third .form-inline {margin-right: 45px;}
+    .footer .row .third .form-inline .form-control {width: 215px !important}
+    .footer .row .forth .btn {
+        width: 43px;
+        height: 43px;
+        background: none;
+        border: 1px solid #2884de;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+    .footer .row .forth .fa {
+        font-size: 22px;
+        width: 29px;
+        height: 27px;
+        padding-top: 3px;
+        padding-left: 10px;
+        color: #2884de
+    }
+    .footer .copy{
+        width: 720px;
+        margin-left: -14px;
+        padding-top: 25px;
+        font-size: 25px;
+        font-weight: bold
+    }
+ }
+ @media (min-width: 992px) and (max-width: 1199px){ /*large screen*/
+    .header .navbar .logo {
+        min-width: 224px;;
+        margin-right: 0 !important;
+        padding-right: 0 !important
+    }
+    .header .navbar .icon {
+        font-size: 30px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 0
+    }
+    .header .navbar .navbar-nav {
+        margin-left: 5px;
+        margin-right: 5px;
+        min-width: 678px;
+    }
+    .header .navbar .navbar-collapse {padding-right: 0;padding-left: 10px}
+    .navbar-expand-lg .navbar-nav .nav-link {font-size: 20px}
+    .header .carousel-caption h1 {font-size: 43px}
+    .header .carousel-caption .input-group {margin: auto}
+    .our-services h1 {font-size: 40px}
+    .our-services .row .logo img {width: 100%}
+    .our-services .row .lead {
+        font-size: 24px;
+        line-height: 2.2;
+        font-weight: 600
+    }
+    .our-services .row .lead .fa {font-size: 35px}
+    .our-vedio .vedio iframe {width: 930px}
+    .footer .row {padding-top: 55px;padding-bottom: 30px}
+    .footer .row .col img {margin-bottom: 35px;padding-bottom: 20px}
+    .footer .row .locate {margin-left: 40px;margin-bottom: 30px}
+    .footer .row .locate h3 {
+        padding-bottom: 10px;
+        font-size: 25px;
+        font-style: italic;
+        padding-right: 10px
+    }
+    .footer .row .locate h3 span {
+        border-bottom: 3px solid #2884de;
+        padding-bottom: 15px;
+    }
+    .footer .row .locate .mans p {
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        padding-top: 5px;
+    }
+    .footer .row .locate .mans .fa{padding-right: 30px;margin-right: 30px}
+    .footer .row .first {margin-bottom: -20px}
+    .footer .row .first p {
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+    }
+    .footer .row .first .fa {padding-right: 30px;margin-right: 25px;}
+    .footer .row .second p {
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+    }
+    .footer .row .second .fa {padding-right: 30px;margin-right: 25px;}
+    .footer .row .third {margin-bottom: 20px;margin-top: 30px;}
+    .footer .row .third .form-inline .form-control {width: 215px !important}
+    .footer .row .forth .btn {
+        width: 43px;
+        height: 43px;
+        background: none;
+        border: 1px solid #2884de;
+        border-radius: 50%;
+    }
+    .footer .row .forth .fa {
+        font-size: 22px;
+        width: 29px;
+        height: 27px;
+        padding-top: 3px;
+        padding-left: 10px;
+        color: #2884de
+    }
+    .footer .copy{
+        width: 960px;
+        margin-left: -14px;
+        padding-top: 30px;
+        font-size: 22px
+    }
+
+ }
+@media (min-width : 1200px){
+    .header .navbar .logo {
+       margin-right: 30px !important;
+       padding-right : 30px !important;
+       min-width: 224px;
+   }
+   .header .carousel-caption {
+       bottom: 3rem
+   }
+   .header .carousel-caption h1 {
+        font-size: 50px;
+        line-height: 1.5;
+        margin-bottom: 2.5rem;
+        font-weight: bold;
+        font-family: 'El Messiri', sans-serif;
+   }
+   .header .navbar .navbar-nav {margin-right: 30px;}
+   .our-services h1 {font-size: 40px}
+   .our-services .row .lead {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 2.7;
+        font-family: 'El Messiri', sans-serif;
+    }
+    .our-services .row .lead .fa {font-size: 35px}
+    .footer .row {margin-bottom: 40x !important}
+    .footer .row .third .form-inline .form-control {width: 190px !important}
+    .footer .row .locate {margin-left: 40px;margin-bottom: 30px}
+    .footer .row .locate h3 {
+        padding-bottom: 20px;
+        font-size: 25px;
+        font-style: italic;
+        padding-right: 10px;
+        font-weight: bold
+    }
+    .footer .row .locate h3 span {border-bottom: 3px solid #00A2B9;padding-bottom: 15px;}
+    .footer .row .locate .mans p {
+        font-size: 20px;
+        font-weight: 600;
+        font-style: italic;
+        padding-top: 5px;
+    }
+    .footer .row .locate .mans .fa{
+        padding-right: 25px;
+        margin-right: 20px
+    }
+    .footer .row .first {margin-bottom: -20px;padding-left: 30px;}
+    .footer .row .first p {
+        font-size: 20px;
+        font-weight: 600;
+        font-style: italic;
+    }
+    .footer .row .first .fa {padding-right: 15px;}
+    .footer .row .second {padding-left: 25px}
+    .footer .row .second p {
+        font-size: 19px;
+        font-weight: 600;
+        font-style: italic;
+    }
+    .footer .row .second .fa {padding-right: 15px;}
+    .footer .row .third {margin-bottom: 15px}
+    .footer .row .forth .btn {
+        width: 43px;
+        height: 43px;
+        background: none;
+        border: 1px solid #00A2B9;
+        border-radius: 50%;
+    }
+    .footer .row .forth .fa {
+        font-size: 22px;
+        width: 29px;
+        height: 27px;
+        padding-top: 3px;
+        padding-left: 10px;
+        color: #00A2B9
+    }
+    .footer .copy{
+        padding-top: 30px;
+        font-size: 22px;
+        font-weight: 600
+    }
+}
+/* end media query */
+/* start loading screen */
+.loading-overlay {
+    background: #fff;
+    color: #2884de;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999
+}
+.loading-overlay h4 {
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+    font-weight: bold;
+    margin: 100px auto;
+}
+.spinner {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin: 300px auto;
+}
+.double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color:#2884de;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;   
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+} 
+@-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+}  
+@keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+}
+/* end loading screen */
+/*start my framework */
+.col-tan {
+    background: #00ceef;
+    border-radius: 50%;
+    color: #fff
+}
+.row-tan {
+    background: #00ceef;
+    border: 2px solid #00ceef;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    margin-top: 15px
+}
+.span-tan{
+    width: 90px;
+    height: 90px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    padding-top: 15px;
+    background: #00ceef;
+    color: #fff;
+    font-size: 20px
+}
+.member {
+    border-bottom: 4px solid black;
+    padding-bottom: 5px;
+}
+/* end my framework */
+
+
+
+

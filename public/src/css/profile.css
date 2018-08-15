@@ -1,0 +1,202 @@
+
+
+.header {
+    border-bottom: 4px solid #70001d;
+    margin-bottom: 100px  
+}
+.new-form {
+    margin-bottom: 100px;
+    margin-top: 60px
+}
+.container {
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.wid {
+    text-align: center;
+    width: 600px;
+    margin-top: 80px;
+    margin-bottom: 70px
+}
+.m-header {
+    height: 60px;
+    margin-bottom: 20px
+}
+.m-header h2 {
+    display: inline-block;
+    color: #00A2B9;
+    font-size: 25px;
+    font-weight: bold
+}
+.m-header .fa {
+    padding: 0px 10px 0px 10px;
+    color: #00A2B9
+}
+.m-body .input-group {
+    height: 45px;
+    margin-bottom: 20px
+}
+.input-group .form-control {
+    border-right: none
+}
+.input-group .input-group-text {
+    background: #fff;
+    border-left: none
+}
+.input-group span .fa {
+    background: #fff;
+    color: #00A2B9;
+    font-size: 30px
+
+}
+.m-body .btn {
+    width: 570px;
+    font-size: 25px;
+    background: #00A2B9;
+    color: #fff
+}
+.own-pharm {
+    direction: rtl;
+}
+.own-pharm .own-header {
+    padding-bottom: 25px
+}
+.own-pharm .own-header .fa {
+    color: #00A2B9;
+    padding: 0px 10px 0px 10px
+}
+.own-pharm h2 {
+    color: #00A2B9;
+    font-size: 35px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0px 15px 0px 15px
+
+}
+.own-pharm .own-body:hover{
+    border: 4px solid #00A2B9;
+}
+.own-pharm .own-body,
+.my-search .my-body {
+    border: 1px solid #00A2B9;
+    border-radius: 20px
+}
+.own-pharm .own-body img ,
+.my-search .my-body img {
+    padding: 15px;
+    width: 100%;
+    padding-right: 20px;
+    border-radius: 30px
+}
+.own-pharm h4 {
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #00A2B9;
+    font-size: 28px
+}
+.own-pharm p {
+    float: right;
+    font-size: 20px;
+    line-height: 1.9
+}
+.own-pharm button:hover {
+    background: #fff;
+    color: #00A2b9; 
+}
+.own-pharm button {
+    display: block;
+    margin: 35px 30px;
+    width: 170px;
+    height: 40px;
+    background: #00A2B9;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold
+}
+.add{
+    margin-bottom: 50px;
+    padding-bottom: 50px
+}
+.add button{
+    width: 230px;
+    height: 50px;
+    border-radius: 20px;
+    background: #00A2B9;
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold
+}
+.add button:hover {
+    background: #fff;
+    color: #00A2b9;    
+}
+.my-search .my-body h2 {
+    font-weight: bold;
+    color: #00ceef;
+    padding-top: 15px;
+    font-size: 35px;
+}
+.my-search .my-head h1 {
+    font-size: 45px;
+    color: #00A2B9;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 15px
+}
+.my-search .my-head .fa {
+    color: #00A2B9;
+    margin: 0px 5px 0px 5px;
+}
+
+.footer {
+    padding-top: 50px
+}
+.footer .copy {
+    margin: auto;
+}
+/* media query */
+@media (min-width: 0px) and (max-width: 575px) {
+    .new-form .wid {
+        width: auto
+    }
+    .new-form .m-header h2 {
+        font-size: 21px
+    }
+    .new-form .m-body button {
+        width: 280px
+    }
+    .own-pharm {
+        padding-top: 10px
+    }
+    .own-pharm .own-body button {
+        /*margin-right: 60px*/
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .new-form .m-body button {
+        width: 515px
+    }
+    .own-pharm .own-body button {
+        /*margin-right: 60px*/
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .own-pharm .own-body button {
+        /*margin-right: 60px*/
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px
+    }  
+}
+
